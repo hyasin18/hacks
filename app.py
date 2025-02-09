@@ -12,7 +12,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # Set up OpenAI API key
-openai.api_key = os.getenv("OPENAI_API_KEY")  # Store your API key in .env
+openai.api_key = os.getenv("OPENAI_API_KEY")  
 
 # Load all JSON files into a single database list
 database = []
