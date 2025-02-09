@@ -1,0 +1,10 @@
+/your_project_folder
+│── /data               # Folder containing JSON files (if you were using a database)
+│   ├── .json 11 files # Example JSON file (not needed if using only AI)
+│── .env                # Stores your OpenAI API key (IMPORTANT)
+│── app.py              # Your Flask application script
+│── templates/
+│   ├── index.html   
+│── static/
+   ├── style.css
+│── final.py    # Dependencies (Flask, OpenAI, dotenv, etc.)
